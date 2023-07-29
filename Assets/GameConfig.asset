@@ -1,0 +1,720 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ccb74c6b8e745e5a580c8a6875a80a1, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  boardDataTextAsset: {fileID: 4900000, guid: 19b8d386e208ef44e9af3909b6dae85e, type: 3}
+  snakeSymbol: 83
+  ladderSymbol: 76
+  emptySymbol: 45
+  playerSymbol: 80
+  TilesData:
+  - id: 1
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 2
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 3
+    isSpecial: 1
+    specialType: 1
+    specialTileData:
+      startTileId: -1
+      endTileId: 3
+    mapData: S1E
+  - id: 4
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 5
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 6
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 7
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 8
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 9
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 10
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 11
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 12
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 13
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 14
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 15
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 16
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 17
+    isSpecial: 0
+    specialType: 2
+    specialTileData:
+      startTileId: 17
+      endTileId: -1
+    mapData: L1S
+  - id: 18
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 19
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 20
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 21
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 22
+    isSpecial: 1
+    specialType: 1
+    specialTileData:
+      startTileId: -1
+      endTileId: 22
+    mapData: S2E
+  - id: 23
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 24
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 25
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 26
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 27
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 28
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 29
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 30
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 31
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 32
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 33
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 34
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 35
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 36
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 37
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 38
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 39
+    isSpecial: 0
+    specialType: 2
+    specialTileData:
+      startTileId: 39
+      endTileId: -1
+    mapData: L2S
+  - id: 40
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 41
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 42
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 43
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 44
+    isSpecial: 1
+    specialType: 1
+    specialTileData:
+      startTileId: 44
+      endTileId: -1
+    mapData: S2S
+  - id: 45
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 46
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 47
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 48
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 49
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 50
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 51
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 52
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 53
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 54
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 55
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 56
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 57
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 58
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 59
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 60
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 61
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 62
+    isSpecial: 0
+    specialType: 2
+    specialTileData:
+      startTileId: -1
+      endTileId: 62
+    mapData: L1E
+  - id: 63
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 64
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 65
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 66
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 67
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 68
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 69
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 70
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 71
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 72
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 73
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 74
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 75
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 76
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 77
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 78
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 79
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 80
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 81
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 82
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 83
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 84
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 85
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 86
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 87
+    isSpecial: 1
+    specialType: 1
+    specialTileData:
+      startTileId: 87
+      endTileId: -1
+    mapData: S1S
+  - id: 88
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 89
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 90
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 91
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 92
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 93
+    isSpecial: 0
+    specialType: 2
+    specialTileData:
+      startTileId: -1
+      endTileId: 93
+    mapData: L2E
+  - id: 94
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 95
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 96
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 97
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 98
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 99
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
+  - id: 100
+    isSpecial: 0
+    specialType: 0
+    specialTileData:
+      startTileId: -1
+      endTileId: -1
+    mapData: '-'
